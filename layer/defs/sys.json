@@ -66,5 +66,22 @@
         "NOT_EXISTS": 9,
         "FAILED": 10,
         "BAD_LENGTH": 12
+    },
+    "zdiagStats": {
+        "SYSTEM_CLOCK": 0,
+        "NUMBER_OF_RESETS": 1,
+        "MAC_RX_CRC_PASS": 100,
+        "MAC_RX_CRC_FAIL": 101,
+        "MAC_TX_UCAST_RETRY": 106,
+        "MAC_TX_UCAST_FAIL": 107,
+        "NWK_DECRYPT_FAILURES": 207,
+        "PACKET_VALIDATE_DROP_COUNT": 211,
+        "APS_TX_BCAST": 301,
+        "APS_TX_UCAST_SUCCESS": 303,
+        "APS_TX_UCAST_RETRY": 304,
+        "APS_TX_UCAST_FAIL": 305,
+        "APS_DECRYPT_FAILURES": 308,
+        "APS_INVALID_PACKETS": 309,
+        "MAC_RETRIES_PER_APS_TX_SUCCESS": 310
     }
 }
